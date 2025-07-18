@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  #version-info {
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  #version-info a {
+    color: #007acc;
+    text-decoration: none;
+  }
+  
+  #version-info a:hover {
+    text-decoration: underline;
+  }
+  
+  #chat-container {
+    max-width: 800px;
+  }
+  
+  #model-setup {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  #model-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #selected-model {
+    font-style: italic;
+    color: #666;
+    padding: 5px 0;
+  }
+  
+  #messages {
+    height: 400px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  #input-container {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007acc;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  #select-and-load-btn {
+    background-color: #28a745;
+    font-weight: bold;
+  }
+  
+  #select-and-load-btn:hover {
+    background-color: #218838;
+  }
