@@ -47,7 +47,7 @@ ipcMain.handle('open-external-link', async (event, url) => {
 // initialization and is ready to create browser windows.
 // Some APIs can only be used after this event occurs.
 app.whenReady().then(async () => {
-  // Load the LLM module with custom getModelPath function
+  // @electron/llm
   await loadElectronLlm({
     getModelPath: (modelAlias) => {
       // For our custom setup, we'll treat the modelAlias as the full path

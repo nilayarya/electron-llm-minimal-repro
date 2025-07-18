@@ -1,6 +1,17 @@
-# Minimal Repro - Electron LLM Chat
+# Minimal chat app using electron/llm
 
-A minimal reproduction of an Electron app using [@electron/llm](https://github.com/electron/llm) to demonstrate local AI chat functionality.
+A minimal Electron app using [@electron/llm](https://github.com/electron/llm) to demonstrate local AI chat functionality. Clone this repo to and follow the steps below to see it in action. 
+
+While this isn't a bare-bones minimal repro, it's as minimal as I could make it while keeping it presentable. I've left comments `@electron/llm` wherever we utilize the [@electron/llm](https://github.com/electron/llm) API so it's easier for your reference.
+
+```js
+// @electron/llm
+await window.electronAi.create({
+   modelAlias: filePath,
+   systemPrompt: 'You are a helpful assistant.'
+});
+```
+
 
 <img src="https://github.com/user-attachments/assets/046c4420-afde-46c1-9377-14502ff61d96" alt="Demo GIF" width="700">
 
