@@ -1,6 +1,6 @@
 # Minimal Repro - Electron LLM Chat
 
-A minimal reproduction of an Electron app using @electron/llm to demonstrate local AI chat functionality.
+A minimal reproduction of an Electron app using [@electron/llm](https://github.com/electron/llm) to demonstrate local AI chat functionality.
 
 <img src="https://github.com/user-attachments/assets/046c4420-afde-46c1-9377-14502ff61d96" alt="Demo GIF" width="700">
 
