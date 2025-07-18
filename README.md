@@ -25,5 +25,5 @@ A minimal reproduction of an Electron app using [@electron/llm](https://github.c
 
 ## Requirements
 
-- Node.js (v22.2+)
+- Node.js (v18+)
 - 4-8GB RAM (depending on model size)
