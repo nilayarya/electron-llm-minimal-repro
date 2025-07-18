@@ -1,10 +1,10 @@
 # Minimal chat app using electron/llm
 
-A minimal Electron app using [@electron/llm](https://github.com/electron/llm) to demonstrate local AI chat functionality. Clone this repo to and follow the steps below to see it in action. 
+A minimal electron app using [@electron/llm](https://github.com/electron/llm) to demonstrate local AI chat functionality. Clone this repo to and follow the steps below to see it in action. 
 
 While this isn't a bare-bones minimal repro, it's as minimal as I could make it while keeping it presentable. I've left comments `@electron/llm` wherever we utilize the [@electron/llm](https://github.com/electron/llm) API so it's easier for your reference.
 
-```js
+```ts
 // @electron/llm
 await window.electronAi.create({
    modelAlias: filePath,
